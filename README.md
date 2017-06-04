@@ -38,7 +38,7 @@ This program is using ultrasonic wave. As the sound advances 340 meters per seco
 Easy to get distance. 
 
 As the sound advances 340m per second (equal 34300 cm). 
-The distance can be obtained by multiplying the speed and the elapsed time. That is, the distance is 340300 * elpsed time(ms)
+The distance can be obtained by multiplying the speed and the elapsed time. That is, the distance is 34300 * elpsed time(ms)
 
 ## example code
 
