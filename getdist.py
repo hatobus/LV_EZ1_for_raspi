@@ -45,9 +45,7 @@ def measure():
     return distance
 
 try:
-
     while True:
-
         distance = measure()
         print "  Distance : %.1f cm" % distance
         time.sleep(1)
