@@ -1,5 +1,7 @@
 # LV-EZ1 for Raspberry pi
 
+[![SUSHI-WARE LICENSE](https://img.shields.io/badge/license-SUSHI--WARE%F0%9F%8D%A3-blue.svg)](https://github.com/MakeNowJust/sushi-ware)
+
 This Repo is MaxBotix's LV‑ProxSonar‑EZ sensors Repo. 
 
 To use Raspberry pi and GPIO. LV-EZ series can use Serial, PWM and Analog. In case of Arduino, using Analog pins. This repo using Raspberry pi and PWM. 
