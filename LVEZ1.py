@@ -4,13 +4,14 @@ import RPi.GPIO as GPIO
 
 GPIO.setmode(GPIO.BCM)
 
+
 class Dist():
     def __init__(self):
         pass
     
-    def Measure(self,gp):
+    def Measure(self, gp):
         GPIO_TRIGECHO = gp 
-        GPIO.setup(GPIO_TRIGECHO,GPIO.OUT)
+        GPIO.setup(GPIO_TRIGECHO, GPIO.OUT)
         GPIO.output(GPIO_TRIGECHO, False)
       # This function measures a distance
       # Pulse the trigger/echo line to initiate a measurement
@@ -33,10 +34,11 @@ class Dist():
         GPIO.output(GPIO_TRIGECHO, False)
 
         elapsed = stop-start
-        distance = (elapsed * 34300)/2.0
+        distance = (elapsed * 34300) / 2.0
         time.sleep(0.1)
         return distance
 
+    
 if __name__ == '__main__':
     LVEZ1 = Dist()
 
